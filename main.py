@@ -45,8 +45,8 @@ def program():
     check = number.isnumeric()
     lennber = len(number)
     if (check == True):
-        if (lennber < 10 or lennber > 10):
-            delay_print(f"{Fore.RED}Number must be 10 digits\n")
+        if (lennber < 11 or lennber > 11):
+            delay_print(f"{Fore.RED}Number must be 11 digits\n")
             program()
         elif (lennber==10):
             delay_print(f"{Fore.YELLOW}1) Ban number\n")
